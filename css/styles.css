@@ -1,8 +1,24 @@
 *{
-   box-sizing: border-box; 
+  box-sizing: border-box; 
+  text-align: center;
 }
 
 body{
-   margin: auto;
+   font-family:Oswald,sans-serif;
 }
 
+#search{
+   text-align: left;
+   border:solid 3px rgb(170, 170, 170);
+   border-radius:5px;
+   width:50vh;
+   padding:10px 10Px;
+}
+
+.images{
+   display:grid;
+   gap: 20px 20px;
+   grid-template-columns: repeat(4,1fr);
+   padding:20px;
+   width:100vh;
+   margin: 0 auto;
